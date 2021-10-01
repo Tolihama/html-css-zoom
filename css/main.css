@@ -3,4 +3,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #dcdcdc;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* UTILITIES */
+
+
+/* HEADER */
+header {
+    background: #000;
+    text-align: right;
+}
+
+header ul.options {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 10px 10px;
+    list-style: none;
+}
+
+header .options li {
+    background: linear-gradient(#3f3f3f, #1e1e1e);
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+header .options li:hover {
+    background: linear-gradient(#1e1e1e, #3f3f3f);
+    cursor: pointer;
+}
+
+header .icon {
+    margin-right: 5px;
+}
+
+/* MAIN */
+main {
+    background: #010101;
+    flex-grow: 1;
+}
+
+/* FOOTER */
+footer {
+    background: #222327;
 }
