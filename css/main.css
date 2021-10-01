@@ -106,7 +106,7 @@ footer li {
     padding: 6px 12px;
     text-align: center;
     cursor: pointer;
-    transition: background .3s;
+    transition: all .3s;
 }
 
 footer li:hover {
@@ -114,11 +114,10 @@ footer li:hover {
 }
 
 footer .icon {
-    display: block;
     font-size: 30px;
 }
 
-footer .icon.share {
+footer .icon .share {
     color: #4cc800;
 }
 
